@@ -1,0 +1,146 @@
+body{
+        background-image: url(foto2-versao2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Montserrat', sans-serif;
+        
+}
+
+header{
+    height: 240px;
+    
+}
+
+.paragrafo-principal{
+    color: white;
+    margin-top: 50px;
+    margin-left: 280px;
+    font-size: 1.5em;
+    text-align: justify;
+    line-height: 1.2em;
+}
+form{
+    padding-top: 50px;
+    
+}
+.img-header{
+    width: 15%;
+    float: left;
+    margin:0 20px 20px 20px;
+}
+
+.titulo-principal{
+    font-size: 3.8em;
+    font-weight: bold;
+    padding-top: 100px;
+    margin-left: 280px;
+    color: white;
+}
+
+main{
+    width: 500px;
+    margin: 40px 0 40px 200px;
+}
+
+.label-padrao{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    font-size: 1.6em;
+    font-weight:  bold;
+}
+.label-padrao,.input-padrao {
+    display: block;
+    
+}
+
+.input-padrao{
+    width: 90%;
+    padding: 0 0 5px 10px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.753);
+    font-size: 1.4em;
+    padding-top: 4px;
+
+}
+
+.enviar{
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 80%;
+    height: 50px;
+    font-size: 1.5em;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.enviar:hover{
+    transform: scale(1.1);
+    background-color: orange;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    margin: 100px 0 20px 0;
+}
+
+/*layout mobile*/
+
+@media (max-width:768px) {
+    
+    header{
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 25px;
+        justify-content: space-between;
+        
+    }
+    
+    header .container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+    
+    }
+
+    .titulo-principal{
+        font-size: 1.4em;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+
+    .paragrafo-principal{
+        margin: 0 30px;
+        padding: 0;
+        font-size: 1.1em;
+    }
+
+    main{
+        width: 100%;
+        margin: 0;
+    }
+
+    form{
+        padding: 40px;
+    }
+
+    .label-padrao{
+        font-size: 1.3em;
+    }
+
+    .input-padrao{
+        width: 100%;
+        font-size: 1.1em;
+    }
+   
+}
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="imagem-carta.png" alt="imagem de uma carta" class="img-header">
+            <h1 class="titulo-principal">Entre em contato conosco!</h1>
+        </div>
+        <p class="paragrafo-principal"> Preencha as informações abaixo, e um dos nossos <br> profissionais entrará em contato com você!</p>
+    </header>
+
+    <main>
+        <form >
+            <label for="nomeesobrenome" class="label-padrao">Nome e Sobrenome *</label>
+            <input type="text" id="nomeesobrenome" class="input-padrao" required placeholder="Digite seu nome completo">
+
+            <label for="email" class="label-padrao">E-mail*</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="tel" class="label-padrao">Telefone</label>
+            <input type="tel" id="tel" class="input-padrao" placeholder="(xx) xxxxx-xxxx">
+
+            <label for="mensagem" class="label-padrao">Mensagem</label>
+            <textarea name="" id="mensagem" cols="60" rows="10" class="input-padrao"></textarea>
+
+            <input type="submit" value="Enviar" class="enviar">
+
+
+        </form>
+    </main>
+
+    <footer>
+        <p>© Feito por william Dondas - 2022</p>
+    </footer>
+</body>
+</html>
